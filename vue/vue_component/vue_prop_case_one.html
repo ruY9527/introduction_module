@@ -1,0 +1,27 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<div id="vue-prop-one">
+  <blog-post post-title="hello!" name-value-name="MMMMMM" one-name="kkkk"></blog-post>
+  <blog-post></blog-post>
+</div> 
+
+<script>
+  // 组件: 面向组件开发, element-ui相等于一个UI的组件库,我们使用的话, 依然element-ui相应的依赖,使用代码了
+  // 注册组件,  使用组件的时候,怎么给 {{postTitle}} 等字段进行渲染呢? 
+  // 通过props定义字段的值,然后使用组件的时候,进行传递即可渲染
+  // 默认值的.  能看懂代码中使用props 
+  Vue.component('blog-post', {
+    // 在 JavaScript 中是 camelCase 的 .  props 子父组件字段传递的 父-->子.  只能父传递到子
+    // 驼峰名   --->  post-title postTitle 
+    // 经过浏览器后转化为小写了
+    props: ['postTitle','nameValueName'],
+    // template , 定义为 html 标签 <v-for></v-for>  <v-if></v-if> vue的标签
+    template: '<div><h3>{{ postTitle }} /  {{nameValueName}}</h3> </br/></div>'
+  })
+
+  var vm = new Vue({
+    el:'#vue-prop-one'
+  })
+
+</script>
