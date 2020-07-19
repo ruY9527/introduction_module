@@ -1,0 +1,45 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/moment.js/2.19.0/moment.js"></script>
+<div id="filter-one">
+
+    <input v-model="message">
+    <br/>
+    <span>{{ message | capitalize }}</span>
+</div>
+
+<script>
+    Vue.filter('capitalize',function (value) {
+        if(!value){ return 'No Have Value' }
+        value = value.toString();
+        return value.charAt(0).toUpperCase() + value.slice(1)
+    });
+
+    new Vue({
+        el:'#filter-one',
+        data: function () {
+            return {
+                message:''
+            }
+        }
+    })
+</script>
+
+<div id="filter_time">
+    <p>now time is : {{ currentTime }}</p>
+    <p>now timw_one is : {{ currentTime | dateToStr }}</p>
+    <p>now time_two is : {{ currentTime | dateToStr('YYYY-MM-DD') }} </p>
+
+</div>
+<script>
+    //  对时间进行格式化  format 效果
+    Vue.filter('dateToStr',function (value,format) {
+       return moment(value).format(format || "YYYY-MM-DD HH:mm:ss")
+    });
+
+    new Vue({
+        el:'#filter_time',
+        data: {
+            currentTime: new Date(),
+        }
+    })
+</script>
