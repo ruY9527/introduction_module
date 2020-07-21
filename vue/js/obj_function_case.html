@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script type="application/javascript">
+    var F = function () {};
+
+    var f = new F();
+    // Object.getPrototypeOf()  返回参数d对象的原型...  这是获取原型对象的标准方法
+    console.log(Object.getPrototypeOf(f) === F.prototype);
+
+    var a = {};
+    var b = {x:1};
+    Object.setPrototypeOf(a,b);
+    console.log(Object.getPrototypeOf(a) === b);
+    console.log(a);
+
+    var A = {
+        print : function () {
+            console.log("A.print()  ...");
+        }
+    };
+
+    var B = Object.create(A);
+    Object.getPrototypeOf(B) === A;
+    B.print();
+    console.log(B.print === A.print);
+
+    if(typeof Object.create !== 'function'){
+        console.log("满足条件");
+    }
+
+    var obj = Object.create({},{
+        p1: {
+            value: 123,
+            enumerable: true,
+            configurable: true,
+            writable: true,
+        },
+        p2: {
+            value:'abc',
+            enumerable: true,
+            configurable: true,
+            writable: true
+        }
+    });
+
+    var obj = Object.create({});
+    obj.p1 = 123;
+    obj.p2 = 'abc';
+
+    //  每隔多久的时间执行函数.
+    /*var i = 1;
+    var timer = setInterval(function () {
+        console.log("GanTian");
+    },1000);*/
+
+
+</script>
+
+</html>
