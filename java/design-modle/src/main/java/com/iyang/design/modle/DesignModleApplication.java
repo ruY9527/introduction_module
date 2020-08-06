@@ -1,7 +1,12 @@
 package com.iyang.design.modle;
 
+import com.iyang.design.modle.create.factory.simple.Shape;
+import com.iyang.design.modle.utils.SimpleFactroyApplicationUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import java.util.Map;
 
 /**
  *
@@ -23,7 +28,21 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DesignModleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DesignModleApplication.class, args);
+        ConfigurableApplicationContext applicationContext = SpringApplication.run(DesignModleApplication.class, args);
+
+        // String[] namesForType = applicationContext.getBeanNamesForType(Shape.class);
+       /* Map<String, Shape> beansOfType = applicationContext.getBeansOfType(Shape.class);
+        beansOfType.forEach((k,v) -> {
+            System.out.println(k);
+
+        });*/
+
+
+        Shape shape = SimpleFactroyApplicationUtils.getBeanInfo("circle");
+        if(shape != null){
+            shape.draw();
+        }
+
     }
 
 }
