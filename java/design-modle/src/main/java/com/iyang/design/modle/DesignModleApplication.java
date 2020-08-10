@@ -24,6 +24,9 @@ import java.util.Map;
  * 主要是先学习理解这个设计模式的好处,然后在学习在工作中对其进行使用
  *
  */
+
+
+
 @SpringBootApplication
 public class DesignModleApplication {
 
