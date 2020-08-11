@@ -1,0 +1,29 @@
+Spring Framework
+
+Data Access/Integration:
+    JDBC:
+    ORM:
+    OXM:
+    JMS: 包含一些制造和消费消息的特性.
+    Transactions: 支持编程和声明性的事务管理,这些事物必须实现特定的接口,并且对所有的pojo都适用.
+
+Web
+    WebSocket
+    Servlet
+    Web
+    Portlet
+
+AOP: Aspects 模板提供了对AspectJ的集成支持.
+Aspects
+Instrumentation
+Messaging
+
+Core Container:
+    Core: Spring框架的核心工具类. 是其他组件的基本核心.
+    Beans: 访问配置文件,创建和管理bean以及进行IOC / DI 操作相关的类.
+    Context: 构建于Core和Beans基础之上.Context继承bean的特性,为Spring核心提供了大量扩展,
+             添加了国际化/事件传播/资源加载和对Context透明创建的支持.
+             BeanFactory的bean是延迟加载的,ApplicationContext是非延时加载的.
+    SpEL: 强大的语言表达式语言,用于在运行时查询和操纵对象.
+
+Test:单元测试
