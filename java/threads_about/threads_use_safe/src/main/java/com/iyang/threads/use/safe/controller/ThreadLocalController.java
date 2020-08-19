@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.LongAdder;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -46,6 +46,11 @@ public class ThreadLocalController {
      * 总元素数量
      */
     private static int ITEM_COUNT = 1000;
+
+    /**
+     * 循环次数
+     */
+    private static int LOOP_ITEM = 10000000;
 
     @SuppressWarnings("all")
     private ConcurrentHashMap<String,Long> getData(int count){
@@ -90,20 +95,62 @@ public class ThreadLocalController {
         // 使用并发线程池模拟处理逻辑
         forkJoinPool.execute(() -> IntStream.rangeClosed(1,10).parallel().forEach(i -> {
             // 查询需要补充的元素
-            int gap = ITEM_COUNT - data.size();
-            LOGGER.info(" the gap size : {} " , gap);
-            // 进行补充元素
-            data.putAll(getData(gap));
+            // 使用 synchronized 来进行加锁.
+            synchronized (data){
+                int gap = ITEM_COUNT - data.size();
+                LOGGER.info(" the gap size : {} " , gap);
+                // 进行补充元素
+                data.putAll(getData(gap));
+            }
         }));
 
         // 等待所有任务完成
         forkJoinPool.shutdown();
         forkJoinPool.awaitTermination(1, TimeUnit.HOURS);
-
         /// 打印出最后的元素
         LOGGER.info("finish size : {} " , data.size());
-
         return "ok";
     }
+
+
+    @GetMapping("/map-add")
+    public void mapAdd() throws Exception {
+        ConcurrentHashMap<String,Long> freqs = new ConcurrentHashMap<>(ITEM_COUNT);
+        ForkJoinPool forkJoinPool = new ForkJoinPool(THREAD_COUNT);
+        forkJoinPool.execute(() -> IntStream.rangeClosed(1,LOOP_ITEM).parallel().forEach((i) -> {
+            String key = "item" + ThreadLocalRandom.current().nextInt(ITEM_COUNT);
+            synchronized (freqs){
+                if(freqs.contains(key)){
+                    freqs.put(key,freqs.get(key) + 1);
+                } else {
+                    freqs.put(key,1L);
+                }
+            }
+        }));
+        forkJoinPool.shutdown();
+        forkJoinPool.awaitTermination(1,TimeUnit.HOURS);
+    }
+
+
+    @GetMapping("/parallel-add")
+    public void parallelAdd() throws Exception {
+
+        ConcurrentHashMap<String,LongAdder> freqs = new ConcurrentHashMap<>(ITEM_COUNT);
+        ForkJoinPool forkJoinPool = new ForkJoinPool();
+        forkJoinPool.execute(() -> {
+            IntStream.rangeClosed(1,LOOP_ITEM).parallel().forEach((i) -> {
+                String key = "item" + ThreadLocalRandom.current().nextInt(ITEM_COUNT);
+                freqs.computeIfAbsent(key,k -> new LongAdder()).increment();
+            });
+        });
+
+        forkJoinPool.shutdown();
+        forkJoinPool.awaitTermination(1,TimeUnit.HOURS);
+
+        Map<String, Long> collect = freqs.entrySet().stream()
+                                         .collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue().longValue()));
+
+    }
+
 
 }
