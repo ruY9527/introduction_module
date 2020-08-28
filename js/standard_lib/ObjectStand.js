@@ -28,3 +28,5 @@ console.log('------------分割线---------------')
 var arr = [1,2,3]
 var dict = {a:'123'}
 console.log(Object.prototype.toString.call(dict))
+
+
