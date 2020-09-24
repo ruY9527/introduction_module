@@ -6,18 +6,18 @@ package com.iyang.objs;
 
 public class WaitNotifyCase {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Factory factory = new Factory();
-        new Thread(new Producer(factory, 5)).start();
-        new Thread(new Producer(factory, 5)).start();
-        new Thread(new Producer(factory, 20)).start();
-        new Thread(new Producer(factory, 30)).start();
-        new Thread(new Consumer(factory, 10)).start();
-        new Thread(new Consumer(factory, 20)).start();
-        new Thread(new Consumer(factory, 5)).start();
-        new Thread(new Consumer(factory, 5)).start();
-        new Thread(new Consumer(factory, 20)).start();
+        new Thread(new Produce(factory, 5)).start();
+        new Thread(new Produce(factory, 5)).start();
+        new Thread(new Produce(factory, 20)).start();
+        new Thread(new Produce(factory, 30)).start();
+        new Thread(new Conumser(factory, 10)).start();
+        new Thread(new Conumser(factory, 20)).start();
+        new Thread(new Conumser(factory, 5)).start();
+        new Thread(new Conumser(factory, 5)).start();
+        new Thread(new Conumser(factory, 20)).start();
 
     }
 
@@ -29,24 +29,24 @@ class Factory {
 
     public static final Integer MAX_NUM = 50;
 
-    public void subtractNum(int number){
+    public void subtractNum(int number) throws InterruptedException {
         synchronized (this){
             if(currentCount < number){
                 this.wait();
             }
             currentCount -= number;
-            System.out.println("consume " + num + ", left: " + currentNum);
+            System.out.println("consume " + number + ", left: " + currentCount);
             this.notifyAll();
         }
     }
 
-    public void add(int number){
+    public void add(int number) throws InterruptedException{
         synchronized (this) {
             while (currentCount + number > MAX_NUM) {
                 this.wait();
             }
             currentCount += number;
-            System.out.println("produce " + num + ", left: " + currentNum);
+            System.out.println("produce " + number + ", left: " + currentCount);
             this.notifyAll();
         }
     }
@@ -63,8 +63,12 @@ class Produce implements Runnable{
     }
 
     @Override
-    public void run() {
-        factory.add(number);
+    public void run()  {
+        try {
+            factory.add(number);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
         this.notify();
     }
 }
@@ -80,7 +84,11 @@ class Conumser implements Runnable {
     }
 
     @Override
-    public void run() {
-        factory.subtractNum(number);
+    public void run()  {
+        try {
+            factory.subtractNum(number);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
