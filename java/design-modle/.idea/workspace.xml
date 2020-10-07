@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:todosone" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:todosthree" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:todostwo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:yshop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c9c49f1-1aee-453e-88a3-d34b8e1d8b46" name="Default Changelist" comment="feat:提交JVM参数知识">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iyang/design/modle/web/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iyang/design/modle/web/service/RequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iyang/design/modle/web/slef/LockingFailureRetryAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iyang/design/modle/web/slef/RetryOnFailure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8-learn/src/main/java/com/iyang/learn/lambdas/OptionalUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iyang/design/modle/DesignModleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iyang/design/modle/DesignModleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8-learn/src/main/java/com/iyang/learn/Java8LearnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8-learn/src/main/java/com/iyang/learn/Java8LearnApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8-learn/src/main/java/com/iyang/learn/lambdas/MyFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8-learn/src/main/java/com/iyang/learn/lambdas/MyFunc.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Software/Java_ChaJian/apache-maven-3.5.2-bin/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\Software\Java_ChaJian\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1huuh25K8HqJ272qcopPAcwuJDI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Java_DaiMa/idea_learn/spring-framework" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.DesignModleApplication">
+    <configuration name="ObjectsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iyang.objs.ObjectsMethod" />
+      <module name="design-modle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iyang.objs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iyang.objs.OverStudent" />
+      <module name="design-modle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iyang.objs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignModleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="design-modle" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iyang.design.modle.DesignModleApplication" />
+      <option name="VM_PARAMETERS" value="-XX:MetaspaceSize=64m -XX:MaxMetaspaceSize=64m -Xmx2048m -Xms1024m -Xmn1024m -Xss4m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ObjectsMethod" />
+      <item itemvalue="Application.OverStudent" />
+      <item itemvalue="Spring Boot.DesignModleApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ObjectsMethod" />
+        <item itemvalue="Application.OverStudent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c9c49f1-1aee-453e-88a3-d34b8e1d8b46" name="Default Changelist" comment="" />
+      <created>1600873413876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600873413876</updated>
+      <workItem from="1600873421803" duration="282000" />
+      <workItem from="1600873719403" duration="3692000" />
+      <workItem from="1600962609131" duration="10784000" />
+      <workItem from="1601648581684" duration="11369000" />
+      <workItem from="1601912991537" duration="28000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat:提交Object相关方法学习和阅读">
+      <created>1600965165771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600965165771</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:提交Object相关方法学习和阅读">
+      <created>1600965333255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600965333255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:提交JVM参数知识">
+      <created>1601715618230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601715618230</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:提交Object相关方法学习和阅读" />
+    <MESSAGE value="feat:提交JVM参数知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:提交JVM参数知识" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601118941850">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601118941850" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1600964941020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600964941020" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600961573922">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600961573922" />
+    <state width="1493" height="109" key="GridCell.Tab.0.bottom" timestamp="1601119461768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601119461768" />
+    <state width="1493" height="109" key="GridCell.Tab.0.center" timestamp="1601119461768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601119461768" />
+    <state width="1493" height="109" key="GridCell.Tab.0.left" timestamp="1601119461768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601119461768" />
+    <state width="1493" height="109" key="GridCell.Tab.0.right" timestamp="1601119461768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601119461768" />
+    <state width="1493" height="109" key="GridCell.Tab.1.bottom" timestamp="1601119461769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601119461769" />
+    <state width="1493" height="109" key="GridCell.Tab.1.center" timestamp="1601119461769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601119461769" />
+    <state width="1493" height="109" key="GridCell.Tab.1.left" timestamp="1601119461768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601119461768" />
+    <state width="1493" height="109" key="GridCell.Tab.1.right" timestamp="1601119461769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601119461769" />
+    <state x="2356" y="88" key="IDE.errors.dialog" timestamp="1601908155629">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2356" y="88" key="IDE.errors.dialog/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1601908155629" />
+    <state x="349" y="146" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1600961480482" />
+    <state x="2371" y="87" key="Vcs.Push.Dialog.v2" timestamp="1601715633194">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2371" y="87" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1601715633194" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600965385354" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601694873338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-96.1920.1040@0.0.1536.824" timestamp="1601694873338" />
+  </component>
+</project>
