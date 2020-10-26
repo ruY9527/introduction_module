@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:todosone" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:todosthree" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:todostwo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:yshop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2750bf5-8000-43fd-b38d-f62d33cbaa5b" name="Default Changelist" comment="feat:commit scala's coding learn">
+      <change afterPath="$PROJECT_DIR$/../base_project/.idea/base_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_5_23_56_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_5_23_56__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/Hello$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/OperationObj$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/OperationObj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/Outer$Inner$InnerMost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/Outer$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/Outer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/com/iyang/ArrayLearn$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/com/iyang/ArrayLearn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/com/iyang/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/com/iyang/StringLearn$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/com/iyang/StringLearn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/com/iyang/Test$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base_project/out/production/base_project/com/iyang/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/yang/scala/collections/ArrayBufferTetsLearn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base_project/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Software/Java_ChaJian/apache-maven-3.5.2-bin/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\Software\Java_ChaJian\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iSupwVLqgLN2RYCevwwMMLTsbm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Java_DaiMa/idea_github_self/boot-case-self/boot-kafka-case" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="sonarlint" />
+  </component>
+  <component name="RunManager" selected="Application.ExceptionLearn">
+    <configuration name="ExceptionLearn" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.scala.exces.ExceptionLearn" />
+      <module name="maven_scala_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.scala.exces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchValLearn" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.scala.test.MatchValLearn" />
+      <module name="maven_scala_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.scala.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueObjLearn" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.scala.collections.QueueObjLearn" />
+      <module name="maven_scala_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.scala.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadRunLearn" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.scala.collections.ThreadRunLearn" />
+      <module name="maven_scala_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.scala.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountCaseOne" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.scala.collections.WordCountCaseOne" />
+      <module name="maven_scala_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.scala.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExceptionLearn" />
+        <item itemvalue="Application.MatchValLearn" />
+        <item itemvalue="Application.ThreadRunLearn" />
+        <item itemvalue="Application.QueueObjLearn" />
+        <item itemvalue="Application.WordCountCaseOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\baoYang\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2750bf5-8000-43fd-b38d-f62d33cbaa5b" name="Default Changelist" comment="" />
+      <created>1601913500572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601913500572</updated>
+      <workItem from="1601913504623" duration="31000" />
+      <workItem from="1601913584967" duration="38061000" />
+      <workItem from="1602345072593" duration="491000" />
+      <workItem from="1602345591460" duration="214000" />
+      <workItem from="1602345825315" duration="6631000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat:commit scala's coding learn">
+      <created>1602088718506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602088718506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:commit scala's coding learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:commit scala's coding learn" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2609" y="106" key="#HTTP_Proxy" timestamp="1602346072826">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2609" y="106" key="#HTTP_Proxy/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602346072826" />
+    <state x="2606" y="290" key="#Project_Settings" timestamp="1602346003357">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2606" y="290" key="#Project_Settings/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602346003357" />
+    <state x="2360" y="-2" key="#Project_Structure" timestamp="1602127508245">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="-2" key="#Project_Structure/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602127508245" />
+    <state x="2337" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602349601600">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2337" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602349601600" />
+    <state x="2623" y="338" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1602346322591">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2623" y="338" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602346322591" />
+    <state x="2499" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601913628155">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2499" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1601913628155" />
+    <state x="2654" y="164" key="FileChooserDialogImpl" timestamp="1602511941545">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2654" y="164" key="FileChooserDialogImpl/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602511941545" />
+    <state width="1700" height="295" key="GridCell.Tab.0.bottom" timestamp="1602511605753">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-96.1920.1040@0.0.1536.824" timestamp="1602053743163" />
+    <state width="1700" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602511605753" />
+    <state width="1700" height="295" key="GridCell.Tab.0.center" timestamp="1602511605753">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824/1920.-96.1920.1040@0.0.1536.824" timestamp="1602053743163" />
+    <state width="1700" height="295" key="GridCell.Tab.0.center/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602511605753" />
+    <state width="1700" height="295" key="GridCell.Tab.0.left" timestamp="1602511605753">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824/1920.-96.1920.1040@0.0.1536.824" timestamp="1602053743163" />
+    <state width="1700" height="295" key="GridCell.Tab.0.left/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602511605753" />
+    <state width="1700" height="295" key="GridCell.Tab.0.right" timestamp="1602511605753">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824/1920.-96.1920.1040@0.0.1536.824" timestamp="1602053743163" />
+    <state width="1700" height="295" key="GridCell.Tab.0.right/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602511605753" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1602350982611">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602350982611" />
+    <state x="2460" y="158" key="IDE.errors.dialog" timestamp="1602345093912">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2460" y="158" key="IDE.errors.dialog/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602345093912" />
+    <state x="2693" y="143" key="RollbackChangesDialog" timestamp="1602088446389">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2693" y="143" key="RollbackChangesDialog/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602088446389" />
+    <state x="2073" y="-39" width="1531" height="935" key="SettingsEditor" timestamp="1602346274174">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2073" y="-39" width="1531" height="935" key="SettingsEditor/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602346274174" />
+    <state x="2601" y="165" width="561" height="524" key="StructurePopup" timestamp="1602061238305">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2601" y="165" width="561" height="524" key="StructurePopup/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602061238305" />
+    <state x="2472" y="155" width="817" height="536" key="Vcs.Push.Dialog.v2" timestamp="1602088729175">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="155" width="817" height="536" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602088729175" />
+    <state x="2682" y="288" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602350989772">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2682" y="288" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602350989772" />
+    <state x="2256" y="45" width="1251" height="737" key="new project wizard" timestamp="1602511924040">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2256" y="45" width="1251" height="737" key="new project wizard/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602511924040" />
+    <state x="2298" y="104" width="1080" height="570" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard" timestamp="1602346243120">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2298" y="104" width="1080" height="570" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602346243120" />
+    <state x="2543" y="129" width="672" height="678" key="search.everywhere.popup" timestamp="1602350361362">
+      <screen x="1920" y="-96" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="129" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-96.1920.1040@1920.-96.1920.1040" timestamp="1602350361362" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="thisforyou.cn" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="/" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
+</project>
