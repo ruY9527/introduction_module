@@ -1,6 +1,6 @@
 package com.yang.scala.test
 
-import com.yang.scala.Emp
+import scala.com.yang.scala.backups.Emp
 
 /**
  * Created by Yang on 2020/10/6 23:55
