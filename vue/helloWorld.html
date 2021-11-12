@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="counter">
+        counter: {{ counter }}
+    </div>
+
+    <div id="bind-attribute">
+        <span v-bind:title="message">
+                鼠标停留,是否可以看到效果.
+        </span>
+    </div>
+
+    <div id="every-handliing">
+        <p> {{eMessage}} </p>
+        <button v-on:click="reversMessage">反转message消息内容</button>
+    </div>
+
+    <div id="two-way-binding">
+        <p>{{ pMessage }}</p>
+        <input v-model="pMessage" />
+    </div>
+
+    <div>
+        <span>-------------  永恒的分割线   ------------</span>
+    </div>
+
+    <div id="conditionCase">
+        <span v-if="seen">现在seen是true,你是可以看到我的</span>
+        <button v-on:click="updateTheStatus">点击修改seen的状态</button>
+    </div>
+
+    <div id="forDemo">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div>
+
+</body>
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+    const Counter = {
+
+        data() {
+            return {
+                counter : 9527
+            }
+        },
+        mounted(){
+            setInterval(() => {
+                console.log("开始执行")
+                this.counter --
+                // console.log("你总是如此nb呀")
+            },1000)
+        }
+    }
+
+    const AttributeBinding = {
+        data() {
+            return {
+                message: '你的页面停留在 ---> ' + new Date().toLocaleDateString()
+            }
+        }
+    }
+
+    const EventHandling = {
+        data(){
+            return {
+                eMessage: 'Hello!!!Luohong'
+            }
+        },
+        methods: {
+            reversMessage(){
+                this.eMessage = this.eMessage.split('').reverse().join('')
+            }
+        }
+    }
+
+    const TwoWayBinding = {
+        data(){
+            return {
+                pMessage: 'This is luohong!!!'
+            }
+        }
+    }
+
+    const ConditionCase = {
+        data(){
+            return {
+                seen: true
+            }
+        },
+        methods: {
+            updateTheStatus(){
+                this.seen = !this.seen
+            }
+        }
+    }
+
+    const ForDemo = {
+        data(){
+            return {
+                todos: [
+                {  text: 'Js' },
+                {  text:'luohong' },
+                {  text:'she' }
+                ]
+            }
+        }
+    }
+
+    Vue.createApp(Counter).mount('#counter')
+    Vue.createApp(AttributeBinding).mount('#bind-attribute')
+    Vue.createApp(EventHandling).mount('#every-handliing')
+    Vue.createApp(TwoWayBinding).mount('#two-way-binding')
+    Vue.createApp(ConditionCase).mount('#conditionCase')
+    Vue.createApp(ForDemo).mount('#forDemo')
+</script>
+</html>
