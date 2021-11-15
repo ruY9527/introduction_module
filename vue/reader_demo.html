@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <span> this is a msg</span>
+    </div>
+
+<br>
+
+    <div id="computed-basics">
+        <p>Has published books:</p>
+        <span>{{ publishedBooksMessage }}</span>
+        <p>现在的时间是: {{ now }} </p>
+        <button v-on:click='updateTimes'>刷新时间</button>
+
+        <p> ------- 分割线   -------</p>
+        <!-- <div :class="{active: isActive}"></div> -->
+        <div class="static" :class="{ active: isActive , 'text-danger' : hasError }">
+        </div>
+
+        <span v-if="type === 'A'">this is A</span>
+        <span v-else-if="type === 'B'">this is B</span>
+        <span v-else-if="type === 'C'">this is C</span>
+        <span v-else>This is not in (A/B/C)</span>
+    </div>
+</body>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://unpkg.com/lodash@4.17.20/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+<script>
+
+    Vue.createApp({
+        data(){
+            return{
+                author: {
+                    name: 'Gavinyang',
+                    books: [
+                    'Vue 2 - Advanced Guide',
+                    'Vue 3 - Basic Guide',
+                    'Vue 4 - The Mystery'
+                    ]
+                },
+                times: Date.now(),
+                isActive: true,
+                hasError: false,
+                type: 'A'
+            }
+        },
+        computed: {
+            publishedBooksMessage(){
+                return this.author.books.length > 0 ? 'Yes' : 'No'
+            },
+            now(){
+                return this.times
+            }
+        },
+        methods: {
+            updateTimes(){
+                // 将 Date.now() 新时间传递给 times
+                this.times = Date.now()
+                // 将author 中的 books 重制为 [] 集合
+                this.author.books = []
+            }
+        }
+    }).mount('#computed-basics')
+
+    const app = Vue.createApp({
+        data(){
+            return {
+                count: 5
+            }
+        }
+    })
+
+    const vm = app.mount('#app')
+
+    console.log(vm.$data.count)
+    console.log(vm.count)
+
+    console.log("-----------")
+    console.log("修改 vm.count 的值")
+    vm.count = 6
+    console.log(vm.$data.count)
+    console.log(vm.count)
+
+    console.log("修改 vm.$data.count 的值")
+    vm.$data.count = 8
+    console.log(vm.$data.count)
+    console.log(vm.count)
+
+</script>
+</html>
