@@ -29,11 +29,53 @@
         <span v-else-if="type === 'C'">this is C</span>
         <span v-else>This is not in (A/B/C)</span>
     </div>
+
+    <div id="array-rendering">
+        <li v-for="(item,index) in items">
+            {{parentMessage}}  ---  {{ index }} ---- {{ item.message }}
+        </li>
+
+        <p>-------  分割线  ------</p>
+        <li v-for="(value , name , index) in myObject">
+             {{ name }}  : {{ value }} : {{ index }}
+        </li>
+
+        <p> ------   强行分割线  -------</p>
+        <li v-for="n in eventNumbers" :key="n">{{ n }}</li>
+
+        <span v-for="n in 10" :key="n"> {{ n }}  , </span>
+
+    </div>
+
+
 </body>
 <script src="https://unpkg.com/vue@next"></script>
 <script src="https://unpkg.com/lodash@4.17.20/lodash.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
 <script>
+
+    Vue.createApp({
+        data() {
+            return {
+                parentMessage: 'LuoHong ...',
+                items: [
+                    { message: 'Foo' },
+                    { message: 'Bar'  }
+                ],
+                myObject: {
+                    title: 'This is your name',
+                    author: 'LuoHong name',
+                    publishedAt: '2021-01-16'
+                },
+                numbers: [1,2,3,4,5]
+            }
+        },
+        computed: {
+            eventNumbers(){
+                return this.numbers.filter(number => number % 2 === 0)
+            }
+        }
+    }).mount('#array-rendering')
 
     Vue.createApp({
         data(){
