@@ -12,9 +12,50 @@
         <button-counter></button-counter>  <br /> <br />
         <button-counter></button-counter>
     </div>
+
+    <div id="blog-post-demo">
+        <blog-post title="This is luohong"></blog-post>
+        <blog-post title="This is GavinYang"></blog-post>
+        <blog-post title="This is BaoYang"></blog-post>
+    </div>
+
+    <div id="pp-post">
+        <bb-post v-for="p in posts" :key="p.id" :title="p.title"></bb-post>
+    </div>
 </body>
 <script src="https://unpkg.com/vue@next"></script>
 <script>
+
+    const postDatas = {
+        data(){
+            return {
+                posts: [
+                { id: 1, title: 'My journey with Vue' },
+                { id: 2, title: 'Blogging with Vue' },
+                { id: 3, title: 'Why Vue is so fun' }
+                ],
+                postFontSize: 1
+            }
+        }
+    }
+
+    const blogDemoPost =  Vue.createApp(postDatas)
+
+    blogDemoPost.component('bb-post',{
+        props: ['title'],
+        template: `<h4> {{ title }} </h4>`
+    })
+    blogDemoPost.mount('#pp-post')
+
+
+
+     const app2 = Vue.createApp({})
+     app2.component('blog-post',{
+         props: ['title'],
+         template: `<h4> {{ title }} </h4>`
+     })
+     app2.mount('#blog-post-demo')
+
     // 基础组件的使用
     const app = Vue.createApp({})
     app.component('button-counter', {

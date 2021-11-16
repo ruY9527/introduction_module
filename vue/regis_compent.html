@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+
+    const nameApp =  Vue.createApp({})
+    nameApp.compent('user-name', {
+        props: {
+            firstName: String , 
+            lastName: String
+        },
+        emits: ['update:firstName' , 'update:lastName'],
+        template: `
+            <input type="text" :value="firstName" @input="emit('update:firstName' , $event.target.value)">
+
+            <input type="text" :value="lastName" @input="emit('update:lastName' , $event.target.value)">
+        `
+    })
+
+    const app = Vue.createApp({})
+    app.compent('custom-form' , {
+        emits: {
+            click: null,
+            submit: ({ email , password }) => {
+                if( email && password) {
+                    true
+                } else{
+                    console.warn("缺少参数,清确定参数")
+                    return false
+                }
+            }
+        },
+        methods: {
+            submitForm(email , password){
+                this.$emit('submit' , { email , password })
+            }
+        }
+    })
+
+</script>
+</html>
