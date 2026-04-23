@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="basic-event">
+        <button @click="counter += 1">Add 1</button>
+        <p>The button above has been clicked {{ counter }} items. </p>
+
+        <button @click="greet">Greet</button>
+        
+        <button @click="say('hi')">Say this is hi</button>
+        <button @click="say('what')">Say content is What</button>
+
+        <button @click="warn('Form cannot be submitted yet..' , $event)">Submit</button>
+
+        <p>  ------ 分割线  -------</p>
+        <button @click="one($event) , two($event)"> Submit </button>
+
+    </div>
+
+    <p>  ------ 第二个对象的分割线 ------ </p>
+    <div id="two-objs">
+        
+        <input v-model="message" placeholder="edit me" />
+        <p> Message is : {{ message }} </p>
+
+        <span>Multiline message is:</span>
+        <p style="white-space: pre-line;"> {{ mMessage }} </p>
+        <br />
+        <textarea v-model="mMessage" placeholder="add multiple lines"></textarea>
+
+        <input type="checkbox" id="checkbox" v-model="checked" />
+        <label for="checkbox"> {{ checked }} </label>
+
+        <br />
+
+        <input type="checkbox" id="jack" value="Jack" v-model="checkedNames" />
+        <label for="jack">Jack</label>
+        <input type="checkbox" id="john" value="John" v-model="checkedNames" />
+        <label for="john">John</label>
+        <input type="checkbox" id="mike" value="Mike" v-model="checkedNames" />
+        <label for="mike">Mike</label>
+        <br />
+        <span>Checked name's : {{ checkedNames }}</span>
+
+        <br />
+        <select v-model="selected">
+            <option disabled value="">Please select your one</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+        <span>Selectd: {{ selected }}</span>
+    </div>
+
+</body>
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+
+    Vue.createApp({
+        
+        data(){
+            return {
+                message: 'LuoHong',
+                mMessage: '',
+                checked: false,
+                checkedNames: [],
+                selected: ''
+            }
+        }
+
+    }).mount('#two-objs')
+
+    Vue.createApp({
+        data(){
+            return {
+                counter: 0,
+                name: 'LuoHong'
+            }
+        },
+        methods: {
+            greet(event) {
+                console.log('触发greet中event中的name的数据是 ---> ' + this.name)
+            },
+
+            say(message) {
+                alert(message)
+            },
+
+            warn(message , event) {
+                if(event){
+                    event.preventDefault()
+                }
+                alert(message)
+            },
+
+            one(event) {
+                console.log(' one  .....')
+            },
+
+            two(event){
+                console.log(' two   ....')
+            }
+
+        }
+    }).mount('#basic-event')
+
+</script>
+</html>
